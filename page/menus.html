@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartes & Menus | Marais Restaurant</title>
+    <meta name="description" content="Découvrez nos créations culinaires, notre cave prestigieuse et nos cocktails signatures.">
+    <link rel="stylesheet" href="../style/css/menus.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none">
+                    <circle cx="8" cy="8" r="3" fill="currentColor"/>
+                    <circle cx="16" cy="8" r="3" fill="currentColor"/>
+                    <circle cx="12" cy="16" r="3" fill="currentColor"/>
+                </svg>
+                <span>Marais</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
+                <li><a href="chef.html" class="nav-link">LE CHEF</a></li>
+                <li><a href="restaurant.html" class="nav-link">LE RESTAURANT</a></li>
+                <li><a href="menus.html" class="nav-link active">CARTES & MENUS</a></li>
+                <li><a href="evenements.html" class="nav-link">ÉVÉNEMENTS</a></li>
+                <li><a href="reservation.html" class="nav-link">RÉSERVATION</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="menus-page">
+        <div class="hero-menus" style="background-image: url('../img/cuisine1.jpg');">
+            <div class="hero-content">
+                <h1>Cartes & Menus</h1>
+                <p>Une cuisine d'exception qui sublime les trésors du terroir Malgache</p>
+            </div>
+        </div>
+
+        <div class="menu-tabs">
+            <div class="tabs-nav">
+                <button class="tab-btn active" data-tab="cuisine">Cuisine</button>
+                <button class="tab-btn" data-tab="vins">Vins</button>
+                <button class="tab-btn" data-tab="cocktails">Cocktails</button>
+            </div>
+
+            <div id="cuisine" class="tab-content active">
+                <div class="menu-section">
+                    <h2>Entrées</h2>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Foie gras poêlé
+                            <span class="item-description">chutney de mangue et pain d'épices</span>
+                        </div>
+                        <div class="item-price">45 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Carpaccio de Saint-Jacques
+                            <span class="item-description">huile de truffe et zestes d'agrumes</span>
+                        </div>
+                        <div class="item-price">42 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Ravioles de langoustines
+                            <span class="item-description">crème de vanille et bisque</span>
+                        </div>
+                        <div class="item-price">48 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Œuf parfait
+                            <span class="item-description">mousseline de cèpes, émulsion au café</span>
+                        </div>
+                        <div class="item-price">38 000 Ar</div>
+                    </div>
+                </div>
+
+                <div class="menu-section">
+                    <h2>Plats</h2>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Filet de bœuf Wagyu
+                            <span class="item-description">sauce au poivre de Voatsiperifery, purée de céleri</span>
+                        </div>
+                        <div class="item-price">85 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Homard bleu
+                            <span class="item-description">risotto crémeux au safran, émulsion de crustacés</span>
+                        </div>
+                        <div class="item-price">95 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Carré d'agneau de l'Île
+                            <span class="item-description">croûte d'herbes, tian de légumes, jus corsé</span>
+                        </div>
+                        <div class="item-price">72 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Pavé de cabillaud
+                            <span class="item-description">purée de patate douce, sauce au Rova Caviar</span>
+                        </div>
+                        <div class="item-price">68 000 Ar</div>
+                    </div>
+                </div>
+
+                <div class="menu-section">
+                    <h2>Desserts</h2>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Soufflé au chocolat
+                            <span class="item-description">cœur coulant, glace vanille de Madagascar</span>
+                        </div>
+                        <div class="item-price">28 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Île flottante
+                            <span class="item-description">crème anglaise à la vanille, caramel beurre salé</span>
+                        </div>
+                        <div class="item-price">22 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Tartelette citron meringuée
+                            <span class="item-description">crémeux au yuzu, meringue italienne</span>
+                        </div>
+                        <div class="item-price">24 000 Ar</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">
+                            Assiette de fromages affinés
+                            <span class="item-description">sélection de fromages français et locaux</span>
+                        </div>
+                        <div class="item-price">26 000 Ar</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="vins" class="tab-content">
+                <div class="wine-list">
+                    <div class="wine-category">
+                        <h3>Bordeaux</h3>
+                        <div class="wine-item">
+                            <div class="wine-name">Château Haut Rian 2020<br><span class="wine-origin">Bordeaux Supérieur</span></div>
+                            <div class="wine-price">210 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Château Camp de la Hire 2018<br><span class="wine-origin">Castillon - Côte de Bordeaux</span></div>
+                            <div class="wine-price">270 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Château Magnan-Figeac 2018<br><span class="wine-origin">Saint-Émilion Grand Cru</span></div>
+                            <div class="wine-price">690 000 Ar</div>
+                        </div>
+                    </div>
+                    <div class="wine-category">
+                        <h3>Bourgogne & Vallée du Rhône</h3>
+                        <div class="wine-item">
+                            <div class="wine-name">Bourgogne Pinot Noir 2022<br><span class="wine-origin">Nuiton-Beaunoy</span></div>
+                            <div class="wine-price">480 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Côtes du Rhône 2021<br><span class="wine-origin">Parallèle 45 - Domaine Paul Jaboulet Aîné</span></div>
+                            <div class="wine-price">300 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Châteauneuf-du-Pape 2020<br><span class="wine-origin">Domaine Etienne Guigal</span></div>
+                            <div class="wine-price">660 000 Ar</div>
+                        </div>
+                    </div>
+                    <div class="wine-category">
+                        <h3>Vins Blancs</h3>
+                        <div class="wine-item">
+                            <div class="wine-name">Pouilly Fumé "Les Moulins à Vent" 2020<br><span class="wine-origin">Pouilly sur Loire</span></div>
+                            <div class="wine-price">450 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Sancerre 2022<br><span class="wine-origin">Les Champs les Clos</span></div>
+                            <div class="wine-price">570 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Chablis 2020<br><span class="wine-origin">Domaine Jean Marc Brocard</span></div>
+                            <div class="wine-price">540 000 Ar</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cocktails" class="tab-content">
+                <div class="cocktail-list">
+                    <div class="cocktail-category">
+                        <h3>Cocktails sans alcool</h3>
+                        <div class="wine-item">
+                            <div class="wine-name">Béryl<br><span class="wine-origin">Schweppes – Sirop de thym frais – Citron vert – Glace pilée – Gelée de framboise</span></div>
+                            <div class="wine-price">27 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Aniah<br><span class="wine-origin">Jus de passion – Sirop de fèves de Tonka – Quartier d'orange – Menthe fraiche</span></div>
+                            <div class="wine-price">27 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Jade<br><span class="wine-origin">Coulis de concombre – Sirop de gingembre – Citron vert – Feuille de basilic</span></div>
+                            <div class="wine-price">27 000 Ar</div>
+                        </div>
+                    </div>
+                    <div class="cocktail-category">
+                        <h3>Cocktails avec alcool</h3>
+                        <div class="wine-item">
+                            <div class="wine-name">Topaze<br><span class="wine-origin">Whisky – Sirop combava baies roses – Citron vert – Gelée citron</span></div>
+                            <div class="wine-price">42 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Achilles<br><span class="wine-origin">Vodka – Gelée aux agrumes – Caramel citron – Brin de romarin</span></div>
+                            <div class="wine-price">33 000 Ar</div>
+                        </div>
+                        <div class="wine-item">
+                            <div class="wine-name">Masay 222<br><span class="wine-origin">Cognac – Sirop de gingembre – Liqueur café – Fumée de palissandre</span></div>
+                            <div class="wine-price">66 000 Ar</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../style/js/main.js"></script>
+</body>
+</html>

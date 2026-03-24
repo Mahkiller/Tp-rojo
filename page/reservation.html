@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation | Marais Restaurant</title>
+    <meta name="description" content="Réservez votre table au Marais Restaurant. Découvrez nos horaires, conditions de réservation et modalités de paiement.">
+    <link rel="stylesheet" href="../style/css/reservation.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none">
+                    <circle cx="8" cy="8" r="3" fill="currentColor"/>
+                    <circle cx="16" cy="8" r="3" fill="currentColor"/>
+                    <circle cx="12" cy="16" r="3" fill="currentColor"/>
+                </svg>
+                <span>Marais</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
+                <li><a href="chef.html" class="nav-link">LE CHEF</a></li>
+                <li><a href="restaurant.html" class="nav-link">LE RESTAURANT</a></li>
+                <li><a href="menus.html" class="nav-link">CARTES & MENUS</a></li>
+                <li><a href="evenements.html" class="nav-link">ÉVÉNEMENTS</a></li>
+                <li><a href="reservation.html" class="nav-link active">RÉSERVATION</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="reservation-page">
+        <div class="hero-reservation" style="background-image: url('../img/team.jpg');">
+            <div class="hero-content">
+                <h1>Réservation</h1>
+                <p>Réservez votre table pour une expérience culinaire unique</p>
+            </div>
+        </div>
+
+        <div class="reservation-container">
+            <div class="reservation-info">
+                <h2>Informations pratiques</h2>
+                
+                <div class="info-hours">
+                    <h3>🕒 Heures d'ouverture</h3>
+                    <p><strong>Du mardi au samedi</strong></p>
+                    <p>• Déjeuner : 12h00 à 14h30 (dernière prise de commande)</p>
+                    <p>• Dîner : 19h00 à 21h30 (dernière prise de commande)</p>
+                    <p><strong>Brunch du Marais</strong></p>
+                    <p>• 2 dimanches par mois : 11h00 à 15h00</p>
+                </div>
+
+                <div class="info-capacity">
+                    <h3>👥 Capacité</h3>
+                    <p>52 couverts en salle</p>
+                    <p>Privatisation possible pour 50 personnes minimum</p>
+                </div>
+
+                <div class="info-contact">
+                    <h3>📞 Réservation par téléphone</h3>
+                    <a href="tel:+261345067497" class="contact-phone">(+261) 34 50 674 97</a>
+                    <p style="margin-top: 10px;">Ou utilisez le formulaire ci-contre</p>
+                </div>
+            </div>
+
+            <form class="reservation-form" id="reservationForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date *</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Heure *</label>
+                        <select id="time" name="time" required>
+                            <option value="">Sélectionnez une heure</option>
+                            <option value="12:00">12:00</option>
+                            <option value="12:30">12:30</option>
+                            <option value="13:00">13:00</option>
+                            <option value="13:30">13:30</option>
+                            <option value="19:00">19:00</option>
+                            <option value="19:30">19:30</option>
+                            <option value="20:00">20:00</option>
+                            <option value="20:30">20:30</option>
+                            <option value="21:00">21:00</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Nombre de personnes *</label>
+                    <select id="guests" name="guests" required>
+                        <option value="">Sélectionnez le nombre</option>
+                        <option value="1">1 personne</option>
+                        <option value="2">2 personnes</option>
+                        <option value="3">3 personnes</option>
+                        <option value="4">4 personnes</option>
+                        <option value="5">5 personnes</option>
+                        <option value="6">6 personnes</option>
+                        <option value="7">7 personnes</option>
+                        <option value="8">8 personnes</option>
+                        <option value="9">9 personnes</option>
+                        <option value="10">10 personnes</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstname">Prénom *</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Nom *</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Téléphone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Notes (optionnel)</label>
+                    <textarea id="notes" name="notes" placeholder="Allergies, demandes particulières..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Réserver maintenant</button>
+            </form>
+        </div>
+
+        <div class="conditions">
+            <h3>Conditions de réservation</h3>
+            <div class="conditions-text">
+                <p>Pour les événements spéciaux, un acompte de 30% est demandé pour confirmer la réservation.<br>
+                Annulation possible jusqu'à 48h avant la réservation.<br>
+                Pour les événements spéciaux, l'acompte n'est pas remboursable.</p>
+                <p style="margin-top: 10px;">Modalités de paiement : Chèque, Carte bancaire VISA, Espèces, Virement, MVola au 034 17 455 92</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../style/js/main.js"></script>
+</body>
+</html>

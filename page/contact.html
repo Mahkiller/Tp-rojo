@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Marais Restaurant</title>
+    <meta name="description" content="Contactez le Marais Restaurant pour toute demande d'information, réservation ou privatisation.">
+    <link rel="stylesheet" href="../style/css/contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none">
+                    <circle cx="8" cy="8" r="3" fill="currentColor"/>
+                    <circle cx="16" cy="8" r="3" fill="currentColor"/>
+                    <circle cx="12" cy="16" r="3" fill="currentColor"/>
+                </svg>
+                <span>Marais</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
+                <li><a href="chef.html" class="nav-link">LE CHEF</a></li>
+                <li><a href="restaurant.html" class="nav-link">LE RESTAURANT</a></li>
+                <li><a href="menus.html" class="nav-link">CARTES & MENUS</a></li>
+                <li><a href="evenements.html" class="nav-link">ÉVÉNEMENTS</a></li>
+                <li><a href="reservation.html" class="nav-link">RÉSERVATION</a></li>
+                <li><a href="contact.html" class="nav-link active">CONTACT</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="contact-page">
+        <div class="hero-contact" style="background-image: url('../img/rest.jpg');">
+            <div class="hero-content">
+                <h1>Contact</h1>
+                <p>Nous sommes à votre écoute</p>
+            </div>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Nous contacter</h2>
+                
+                <div class="info-card">
+                    <h3><i class="bi bi-geo-alt"></i> Adresse</h3>
+                    <p>Immeuble ATRIUM<br>Ankorondrano (5ème étage)<br>Antananarivo, Madagascar</p>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="bi bi-telephone"></i> Téléphone</h3>
+                    <a href="tel:+261345067497">(+261) 34 50 674 97</a>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="bi bi-envelope"></i> Email</h3>
+                    <a href="#">contact@marais-restaurant.com</a>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="bi bi-clock"></i> Horaires</h3>
+                    <p><strong>Mardi au Samedi</strong><br>Déjeuner : 12h00 - 14h30<br>Dîner : 19h00 - 22h30</p>
+                    <p><strong>Brunch</strong><br>2 dimanches par mois : 11h00 - 15h00</p>
+                </div>
+
+                <div class="social-links">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nom *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet *</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Envoyer le message</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="../style/js/main.js"></script>
+</body>
+</html>

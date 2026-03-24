@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marais Restaurant | Gastronomie française au cœur d'Antananarivo</title>
+    <meta name="description" content="C'est au coeur du Marais Restaurant que notre équipe met son savoir-faire au service de l'excellence, et sublime vos assiettes avec sincérité, technicité et créativité.">
+    <link rel="stylesheet" href="../style/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="background-slider">
+        <img src="../img/resto1.jpg" alt="Marais Restaurant" class="bg-image active">
+        <img src="../img/niccki2.jpg" alt="Cuisine Marais" class="bg-image">
+        <img src="../img/team.jpg" alt="Équipe Marais" class="bg-image">
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none">
+                    <circle cx="8" cy="8" r="3" fill="currentColor"/>
+                    <circle cx="16" cy="8" r="3" fill="currentColor"/>
+                    <circle cx="12" cy="16" r="3" fill="currentColor"/>
+                </svg>
+                <span>Marais</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">ACCUEIL</a></li>
+                <li><a href="chef.html" class="nav-link">LE CHEF</a></li>
+                <li><a href="restaurant.html" class="nav-link">LE RESTAURANT</a></li>
+                <li><a href="menus.html" class="nav-link">CARTES & MENUS</a></li>
+                <li><a href="evenements.html" class="nav-link">ÉVÉNEMENTS</a></li>
+                <li><a href="reservation.html" class="nav-link">RÉSERVATION</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-content">
+            <div class="accent-bar"></div>
+            <h1 class="hero-title">Marais Restaurant</h1>
+            <p class="hero-subtitle">
+                C'est au cœur du Marais Restaurant que notre équipe met son savoir-faire au service de l'excellence, 
+                et sublime vos assiettes avec sincérité, technicité et créativité. Une gastronomie française qui épouse 
+                les trésors du terroir Malgache.
+            </p>
+            <button class="cta-button" onclick="window.location.href='reservation.html'">Réservation</button>
+        </div>
+    </main>
+
+    <section id="chef" class="section">
+        <div class="section-content">
+            <h2 class="section-title">Le Chef</h2>
+            <h3 class="section-subtitle">L'histoire d'un homme</h3>
+            <p class="section-text">
+                Lalaina Ravelomanana, un Chef Malgache autodidacte qui n'a peur de rien et désireux de toujours proposer le meilleur. 
+                Le Chef le plus réputé de Madagascar, disciple d'Auguste Escoffier ayant d'ores et déjà reçu 9 prix internationaux, 
+                honoré en 2010 d'être le Premier Chef Africain intronisé à la prestigieuse Académie Culinaire de France.
+            </p>
+            <button class="cta-button btn-outline" onclick="window.location.href='chef.html'">En savoir plus</button>
+        </div>
+        <div class="section-image" style="background-image: url('../img/lal1.jpg');"></div>
+    </section>
+
+    <section id="restaurant" class="section reverse">
+        <div class="section-content">
+            <h2 class="section-title">Le Restaurant</h2>
+            <h3 class="section-subtitle">La naissance d'un lieu et d'une cuisine uniques</h3>
+            <p class="section-text">
+                Le 15 avril 2019, aux côtés de Delphyne, Christophe et Alexandre, Lalaina va ouvrir le Marais Restaurant. 
+                Animés par le même souci du détail et de l'excellence, par la même ferveur pour des défis ambitieux, 
+                ils vont monter de toute pièce un restaurant gastronomique qui deviendra en quelques mois la fierté de Madagascar. 
+                Un lieu unique où la gastronomie Française épouse les trésors du terroir Malgache.
+            </p>
+            <button class="cta-button btn-outline" onclick="window.location.href='restaurant.html'">En savoir plus</button>
+        </div>
+        <div class="section-image" style="background-image: url('../img/rest.jpg');"></div>
+    </section>
+
+    <section id="menus" class="section">
+        <div class="section-content">
+            <h2 class="section-title">Cartes & Menus</h2>
+            <h3 class="section-subtitle">Une cuisine d'exception</h3>
+            <p class="section-text">
+                Découvrez nos créations culinaires où chaque plat raconte une histoire. Des entrées raffinées aux desserts gourmands, 
+                en passant par nos viandes et poissons sublimés, notre carte évolue au rythme des saisons pour vous offrir le meilleur 
+                des produits locaux et français.
+            </p>
+            <div class="menu-categories">
+                <div class="menu-card">
+                    <h4>Cuisine</h4>
+                    <p>Entrées, plats, desserts... L'excellence à chaque bouchée</p>
+                </div>
+                <div class="menu-card">
+                    <h4>Vins</h4>
+                    <p>Une cave prestigieuse de Bordeaux, Bourgogne et Vallée du Rhône</p>
+                </div>
+                <div class="menu-card">
+                    <h4>Cocktails</h4>
+                    <p>Créations signatures avec ou sans alcool</p>
+                </div>
+            </div>
+            <button class="cta-button" onclick="window.location.href='menus.html'">Voir les menus</button>
+        </div>
+        <div class="section-image" style="background-image: url('../img/cuisine1.jpg');"></div>
+    </section>
+
+    <section id="contact" class="section reverse">
+        <div class="section-content">
+            <h2 class="section-title">Contact & Réservation</h2>
+            <h3 class="section-subtitle">Nous vous attendons</h3>
+            <div class="contact-info">
+                <p><strong>📍 Adresse :</strong> Immeuble ATRIUM, Ankorondrano (5ème étage) - Antananarivo</p>
+                <p><strong>📞 Téléphone :</strong> (+261) 34 50 674 97</p>
+                <p><strong>✉️ Email :</strong> contact@marais-restaurant.com</p>
+                <p><strong>🕒 Horaires :</strong> Déjeuner : 12h00 - 14h30 | Dîner : 19h00 - 22h30</p>
+            </div>
+            <button class="cta-button" onclick="window.location.href='reservation.html'">Réserver une table</button>
+            <div class="social-links">
+                <a href="#" target="_blank" class="social-link"><i class="bi bi-facebook"></i> Facebook</a>
+                <a href="#" target="_blank" class="social-link"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="#" target="_blank" class="social-link"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+        <div class="section-image" style="background-image: url('../img/slider3.jpg');"></div>
+    </section>
+
+    <script src="../style/js/main.js"></script>
+</body>
+</html>
