@@ -23,6 +23,10 @@
         @media (max-width: 1024px) {
             @content;
         }
+    } @else if $breakpoint == desktop {
+        @media (min-width: 1025px) {
+            @content;
+        }
     }
 }
 
@@ -30,4 +34,34 @@
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// CSS Grid mixins
+@mixin grid-auto-fit($min-width: 300px, $gap: 20px) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($min-width, 1fr));
+    gap: $gap;
+}
+
+@mixin grid-cols($cols) {
+    display: grid;
+    grid-template-columns: repeat($cols, 1fr);
+    
+    @include responsive(mobile) {
+        grid-template-columns: 1fr;
+    }
+}
+
+@mixin grid-responsive($desktop-cols: 3, $tablet-cols: 2, $mobile-cols: 1, $gap: 20px) {
+    display: grid;
+    grid-template-columns: repeat($desktop-cols, 1fr);
+    gap: $gap;
+    
+    @include responsive(tablet) {
+        grid-template-columns: repeat($tablet-cols, 1fr);
+    }
+    
+    @include responsive(mobile) {
+        grid-template-columns: repeat($mobile-cols, 1fr);
+    }
 }

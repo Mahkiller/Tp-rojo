@@ -44,14 +44,15 @@
     }
     
     .chef-bio {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         gap: 60px;
         padding: 100px 8%;
         background: $bg-dark-secondary;
         
         @include responsive(tablet) {
-            flex-direction: column;
+            grid-template-columns: 1fr;
             padding: 60px 5%;
         }
         
@@ -80,8 +81,8 @@
                 }
                 
                 .award-list {
-                    display: flex;
-                    flex-wrap: wrap;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
                     gap: 15px;
                     
                     .award-item {
@@ -89,6 +90,7 @@
                         padding: 8px 16px;
                         border-radius: 30px;
                         font-size: 0.9rem;
+                        text-align: center;
                     }
                 }
             }

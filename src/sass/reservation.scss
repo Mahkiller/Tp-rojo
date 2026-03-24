@@ -33,13 +33,14 @@
     }
     
     .reservation-container {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         padding: 80px 8%;
         background: $bg-dark;
         gap: 60px;
         
         @include responsive(tablet) {
-            flex-direction: column;
+            grid-template-columns: 1fr;
             padding: 60px 5%;
         }
     }
