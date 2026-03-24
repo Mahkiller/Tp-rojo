@@ -1,0 +1,57 @@
+
+FICHIERS SASS
+    •(ok) Créer _variables.scss (2mn)(lucas)
+    •(ok) Créer _mixins.scss (2mn)(lucas)
+    •(ok) Créer _base.scss (5mn)(lucas)
+    •(ok) Créer index.scss (10mn)(lucas)
+    •(ok) Créer chef.scss (5mn)(lucas)
+    •(ok) Créer restaurant.scss (5mn)(lucas)
+    •(ok) Créer menus.scss (5mn)(lucas)
+    •(ok) Créer evenements.scss (5mn)(lucas)
+    •(ok) Créer reservation.scss (5mn)(lucas)
+    •(ok) Créer contact.scss (5mn)(lucas)
+
+
+PAGES HTML
+    •(ok) Créer index.html (racine) (1mn)(mahery)
+    •(ok) Créer page/index.html (10mn)(mahery)
+    •(ok) Créer page/chef.html (5mn)(mahery)
+    •(ok) Créer page/restaurant.html (5mn)(mahery)
+    •(ok) Créer page/menus.html (8mn)(mahery)
+    •(ok) Créer page/evenements.html (8mn)(mahery)
+    •(ok) Créer page/reservation.html (8mn)(mahery)
+    •(ok) Créer page/contact.html (5mn)(mahery)
+
+
+JAVASCRIPT
+    •(ok) Menu mobile (toggle) (5mn)(mahery)
+    •(ok) Fermeture menu sur clic (2mn)(mahery)
+    •(ok) Background slider (accueil) (5mn)(mahery)
+    •(ok) Tabs (page menus) (5mn)(mahery)
+    •(ok) Smooth scroll (2mn)(mahery)
+    •(ok) Animation au scroll (5mn)(mahery)
+    •(ok) Formulaire réservation (alerte) (3mn)(mahery)
+    •(ok) Formulaire contact (alerte) (3mn)(mahery)
+    •(ok) Navbar scroll effect (3mn)(mahery)
+
+
+INTEGRATION IMAGES
+    •(ok) Créer dossier img/ (1mn)(mahery)
+    •(ok) Intégrer les images dans toutes les pages (10mn)(mahery)
+    •(ok) Configurer favicon (3mn)(mahery)
+
+
+RESPONSIVE & STYLES
+    •(ok) Compilation SASS (2mn)(lucas)
+    •(ok) Ajuster responsive tablet (10mn)(lucas)
+    •(ok) Ajuster responsive mobile (10mn)(lucas)
+    •(ok) Finaliser animations CSS (5mn)(lucas)
+
+
+TESTS & CORRECTIONS
+    •(ok) Tester tous les liens entre pages (3mn)(mahery)
+    •(ok) Tester les formulaires JS (2mn)(mahery)
+    •(ok) Tester menu mobile (2mn)(mahery)
+    •(ok) Tester background slider (2mn)(mahery)
+    •(ok) Tester tabs page menus (2mn)(mahery)
+    •(ok) Vérifier responsive (5mn)(lucas)
